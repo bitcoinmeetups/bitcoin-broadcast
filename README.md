@@ -27,11 +27,11 @@ The project uses SCons for building and requires OpenSSL and GLib.
 Before compiling, install the following packages (moreutils is just
 needed for `ts`):
 
-	gcc
-	libssl-dev
-	libglib2.0-dev
-	scons
-	moreutils
+	sudo apt-get gcc
+	sudo apt-get libssl-dev
+	sudo apt-get libglib2.0-dev
+	sudo apt-get scons
+	sudo apt-get moreutils
 
 Then compile:
 
